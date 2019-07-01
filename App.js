@@ -8,6 +8,7 @@ import TestApp from './Reciever/Stopwatch'
 import Overlay from './Reciever/Overlay'
 import { Header, PricingCard, Input,Card, Button, Icon, ButtonGroup, Slider } from 'react-native-elements';
 
+
 export default function App() {
   const buttons = ['Start', 'Stop']
   return (
