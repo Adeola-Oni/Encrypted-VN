@@ -28,7 +28,7 @@ export default function App() {
           <div className='above-full-pack'>
               <div className='pack'>
                 <Image
-                    style={{width: 180, height: 180, alignItems: 'center', marginTop: '20%', marginBottom: '10%'}}
+                    style={{width: 150, height: 150, alignItems: 'center', marginTop: '4%', marginBottom: '10%'}}
                     source={require('./images/microphone.svg')} 
                 />
                 <br/>

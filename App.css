@@ -1,5 +1,7 @@
 .above-full-pack{
     align-items: center;
+
+    height: 70vh
 }
 .full-pack{
     background-image: url('./images/img3.svg');
