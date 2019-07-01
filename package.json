@@ -8,14 +8,18 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@types/googlemaps": "^3.36.5",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^16.8.22",
     "expo": "^33.0.0",
-    "react": "16.8.3",
+    "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "react-native-audio-recorder-player": "^2.1.4",
     "react-native-elements": "^1.1.0",
     "react-native-slider": "^0.11.0",
     "react-native-stopwatch-timer": "0.0.21",
+    "react-native-vector-icons": "^6.6.0",
     "react-native-web": "^0.11.4"
   },
   "devDependencies": {
