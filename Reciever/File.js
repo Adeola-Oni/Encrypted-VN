@@ -9,27 +9,8 @@ class FileSent extends React.Component {
         file: ''
     }
 
-    // uploadFile(data){
-    //     console.log(data)
-    // }
-
-    uploadFile(files) {
-        console.log(files)
-        for (let i = 0; i < files.length; i++) {
-          const file = files[i];
-          console.log(file)
-          
-        //   if (!file.type.startsWith('image/')){ continue }
-          
-        //   const img = document.createElement("img");
-        //   img.classList.add("obj");
-        //   img.file = file;
-        //   preview.appendChild(img); // Assuming that "preview" is the div output where the content will be displayed.
-          
-        //   const reader = new FileReader();
-        //   reader.onload = (function(aImg) { return function(e) { aImg.src = e.target.result; }; })(img);
-        //   reader.readAsDataURL(file);
-        }
+    uploadFile(file) {
+       console.log(file)
     }
 
     
@@ -37,7 +18,7 @@ class FileSent extends React.Component {
         return (
             <View style={styles.filepart}>
                 <Text style={styles.inputPart}>
-                    <input type="file"  onChange={(res)=>this.uploadFile(res.data)}/>
+                    <input type="file"  onChange={(res)=>this.uploadFile(res)}/>
                 </Text>
 
                 <Button
