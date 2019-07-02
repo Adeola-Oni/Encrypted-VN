@@ -49,29 +49,27 @@ class TestApp extends React.Component{
           reset={this.state.stopwatchReset}
           />
         <Button
-            buttonStyle={{margin: '5%', padding: '4%', backgroundColor:'white', 
-            outline:'2px solid green', boxShadow: '0 0 10px #B1C1C0', textAlign: 'center' }}
+            // buttonStyle={{ }}
             titleStyle={{color: 'black'}}
             title={!this.state.stopwatchStart ? "START" : "STOP"}
-            icon={
-            <Image
-            style={{width: 20, height: 20, alignItems: 'center', marginRight: '20%'}}
-            source={require('../images/power.svg')} />
-            }
+            // icon={
+            // <Image
+            // style={{width: 20, height: 20, alignItems: 'center', marginRight: '20%'}}
+            // source={require('../images/power.svg')} />
+            // }
             onPress={this.toggleStopwatch}
         />
-        <Text style={{fontSize: 30}}></Text>
 
         <Button
-            buttonStyle={{margin: '5%', padding: '4%', backgroundColor:'white', 
-            outline:'2px solid green', boxShadow: '0 0 10px #B1C1C0', textAlign: 'center' }}
-            titleStyle={{color: 'black'}}
+            // buttonStyle={{margin: '5%', padding: '4%', backgroundColor:'white', 
+            // outline:'2px solid green', boxShadow: '0 0 10px #B1C1C0', textAlign: 'center' }}
+            // titleStyle={{color: 'black'}}
             title='RESET'
-            icon={
-            <Image
-            style={{width: 20, height: 20, alignItems: 'center', marginRight: '20%'}}
-            source={require('../images/delete.svg')} />
-            }
+            // icon={
+            // <Image
+            // style={{width: 20, height: 20, alignItems: 'center', marginRight: '20%'}}
+            // source={require('../images/delete.svg')} />
+            // }
             onPress={this.resetStopwatch}
         />
 
@@ -98,7 +96,7 @@ const styles = StyleSheet.create({
   },
   stopwatch:{
     textAlign: 'center',
-
+    color: 'red',
   }
 });
  
